@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>PizzeriaApplication</artifactId>
+        <groupId>com.gunmProg</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>verificationToken</artifactId>
+    <packaging>jar</packaging>
+    <name>Project Module - verificationToken</name>
+    <description>
+        Module that contains the logic for verificationToken, for handle unique token where a process need it.
+    </description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.gunmProg</groupId>
+            <artifactId>domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- repository module, with model dependency -->
+        <!-- <dependency>
+             <groupId>com.gunmProg</groupId>
+             <artifactId>repository</artifactId>
+             <version>0.0.1-SNAPSHOT</version>
+         </dependency>-->
+
+    </dependencies>
+
+</project>
